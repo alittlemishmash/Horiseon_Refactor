@@ -4,7 +4,7 @@
     margin: 0;
 }
 
-/* General webpage layout.
+/* General page styling.
 Elements "a" and "p" were moved up to this section as all common styling should come first. */
 
 body {
@@ -54,16 +54,8 @@ p {
     margin-left: 25px;
 }
 
-/* Individual class styling.
+/* Individual class styling. 
 Classes have been moved around in the style sheet to coincide with the order of HTML code as best as possible. */
-.hero {
-    height: 800px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
-}
 
 .content {
     width: 75%;
@@ -81,6 +73,7 @@ Classes have been moved around in the style sheet to coincide with the order of 
     margin-left: 25px;
 }
 
+/* Sidebar styling*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -92,11 +85,14 @@ Classes have been moved around in the style sheet to coincide with the order of 
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* Consolidated class selectors as they had the same values and helps to minimise the amount of code. Code has been hidden but left in the stylesheet to show what was omitted. */
+.benefit-lead, 
+.benefit-brand, 
+.benefit-cost  {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* 
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,12 +102,15 @@ Classes have been moved around in the style sheet to coincide with the order of 
     margin-bottom: 32px;
     color: #ffffff;
 }
+*/
 
-.benefit-lead h3 {
+.benefit-lead h3, 
+.benefit-brand h3, 
+.benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/*
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
@@ -121,13 +120,16 @@ Classes have been moved around in the style sheet to coincide with the order of 
     margin-bottom: 10px;
     text-align: center;
 }
+*/
 
-.benefit-lead img {
+.benefit-lead img, 
+.benefit-brand img, 
+.benefit-cost img  {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/*
 .benefit-brand img {
     display: block;
     margin: 10px auto;
@@ -139,8 +141,11 @@ Classes have been moved around in the style sheet to coincide with the order of 
     margin: 10px auto;
     max-width: 150px;
 }
+*/
 
-.search-engine-optimization {
+.search-engine-optimization, 
+.online-reputation-management, 
+.social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -148,7 +153,7 @@ Classes have been moved around in the style sheet to coincide with the order of 
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/*
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -166,11 +171,14 @@ Classes have been moved around in the style sheet to coincide with the order of 
     background-color: #0072bb;
     color: #ffffff;
 }
+*/
 
-.search-engine-optimization img {
+.search-engine-optimization img, 
+.online-reputation-management img, 
+.social-media-marketing img   {
     max-height: 200px;
 }
-
+/*
 .online-reputation-management img {
     max-height: 200px;
 }
@@ -178,12 +186,15 @@ Classes have been moved around in the style sheet to coincide with the order of 
 .social-media-marketing img {
     max-height: 200px;
 }
+*/
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2, 
+.online-reputation-management h2, 
+.social-media-marketing h2  {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/*
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
@@ -193,7 +204,9 @@ Classes have been moved around in the style sheet to coincide with the order of 
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
+/* Footer styling.*/
 .footer {
     padding: 30px;
     clear: both;
@@ -204,3 +217,16 @@ Classes have been moved around in the style sheet to coincide with the order of 
 .footer h2 {
     font-size: 20px;
 }
+
+/*HERO class selector changed to HOME-IMAGE as it's a more sensical name. 
+CLASS selector changed to an ID selector as this relates to an image likely only to be found once throughout the website on its homepage (this can be later chenged back to a CLASS selector if the image is to be repeated throughout).
+ID selector placed at end of stylesheet as per best practice. */
+#home-image {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
