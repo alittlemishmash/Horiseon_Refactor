@@ -20,7 +20,7 @@ p {
     font-size: 16px;
 }
 
-/* Header styling */
+/* Header classes */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -54,7 +54,7 @@ p {
     margin-left: 25px;
 }
 
-/* Individual class styling. 
+/* Main content styling. 
 Classes have been moved around in the style sheet to coincide with the order of HTML code as best as possible. */
 
 .content {
@@ -63,85 +63,7 @@ Classes have been moved around in the style sheet to coincide with the order of 
     margin-left: 20px;
 }
 
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
-
-/* Sidebar styling*/
-.benefits {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 /* Consolidated class selectors as they had the same values and helps to minimise the amount of code. Code has been hidden but left in the stylesheet to show what was omitted. */
-.benefit-lead, 
-.benefit-brand, 
-.benefit-cost  {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-
-.benefit-lead h3, 
-.benefit-brand h3, 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/*
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
-
-.benefit-lead img, 
-.benefit-brand img, 
-.benefit-cost img  {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/*
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-*/
 
 .search-engine-optimization, 
 .online-reputation-management, 
@@ -205,6 +127,86 @@ Classes have been moved around in the style sheet to coincide with the order of 
     font-size: 36px;
 }
 */
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Sidebar styling*/
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+.benefit-lead, 
+.benefit-brand, 
+.benefit-cost  {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* 
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+*/
+
+.benefit-lead h3, 
+.benefit-brand h3, 
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+*/
+
+.benefit-lead img, 
+.benefit-brand img, 
+.benefit-cost img  {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/*
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+*/
+
 
 /* Footer styling.*/
 .footer {
