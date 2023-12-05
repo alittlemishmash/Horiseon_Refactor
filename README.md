@@ -32,7 +32,7 @@ The website can be viewed via the above URL link.
 
 This website can currently be viewed best on a desktop browser. It is not yet optimised for smaller screens.
 
-![screenshot of index.html](./images/01-html-css-git-homework-demo.png)
+![screenshot of index.html](./assets/images/01-html-css-git-homework-demo.png)
 
     
 ## Credits
